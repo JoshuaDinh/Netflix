@@ -1,5 +1,6 @@
 {
   "name": "movieflix",
+  "homepage": "https://joshuadinh-netflix.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
