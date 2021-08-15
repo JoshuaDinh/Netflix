@@ -6,7 +6,7 @@ import Banner from "./components/Banner/Banner";
 import Navigation from "./components/Navigation/Navigation";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Switch>
@@ -20,9 +20,9 @@ function App() {
               fetchUrl={requests.fetchNetflixOriginals}
             />
             <Row title="Trending" fetchUrl={requests.fetchTrending} />
-            <Row title="Action" fetchUrl={requests.fetchAction} />
+            {/* <Row title="Action" fetchUrl={requests.fetchAction} /> */}
             <Row title="Comedy" fetchUrl={requests.fetchComedy} />
-            <Row title="Horror" fetchUrl={requests.fetchHorror} />
+            {/* <Row title="Horror" fetchUrl={requests.fetchHorror} /> */}
             <Row title="Romance" fetchUrl={requests.fetchRomance} />
             <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
           </div>
@@ -30,6 +30,6 @@ function App() {
       </Switch>
     </Router>
   );
-}
+};
 
 export default App;

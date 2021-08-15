@@ -1,13 +1,13 @@
 .row {
   overflow: hidden;
-  padding-top: 2em;
+  padding: 2em 1rem;
   color: white;
 }
 
 .row__posters img {
   width: 100%;
   object-fit: contain;
-  max-height: 100px;
+  max-height: 130px;
   transition: 250ms;
   padding: 20px;
 }
